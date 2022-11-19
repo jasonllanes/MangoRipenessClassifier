@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ScanningPane">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="50dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:text="Open Camera"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/brown"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:text="Open Gallery"
+            android:backgroundTint="@color/brown"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_home"
+            android:text="Back to Menu"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/brown"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Classified as:"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="20sp"-->
+
+<!--            android:layout_marginTop="10sp" />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:textColor="#C30000"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="27sp"-->
+<!--            android:id="@+id/result" />-->
+
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
